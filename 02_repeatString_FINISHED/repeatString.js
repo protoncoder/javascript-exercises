@@ -8,7 +8,7 @@ const repeatString = function(string, num) {
   //return 'hey' many times
   let stringHolder = '';
   for (let i = 0; i < num; i++) {
-    stringHolder += string;
+    stringHolder += string; //same as stringHolder = stringHolder + string
   }
   return stringHolder;
 };
